@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://panditrohanujjain-tech.github.io/sitemap.xml

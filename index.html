@@ -1,470 +1,947 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Pandit Rohan Sharma Ujjain | Ujjain Puja & Pandit Services</title>
-
-  <meta name="description"
-        content="Pandit Rohan Sharma in Ujjain with 12+ years of experience. Contact for Kaal Sarp Dosh Puja, Mangal Dosh Puja, Pitra Dosh Puja, Rudrabhishek, Mahakal Puja and Navgraha Shanti in Ujjain.">
-
-  <meta name="keywords"
-        content="Pandit in Ujjain, Ujjain Puja, Ujjain Pooja, Kaal Sarp Dosh Puja Ujjain, Mangal Dosh Puja Ujjain, Pitra Dosh Puja Ujjain, Mahakal Puja Ujjain, Rudrabhishek Ujjain">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#182522">
+  <meta name="description" content="Contact Pandit Rohan Sharma in Ujjain for Kaal Sarp Dosh, Mangal Bhat, Pitra Dosh, Rudrabhishek, Mahakal and Navgraha Shanti puja. 12+ years of experience.">
   <meta name="robots" content="index, follow">
-
+  <link rel="canonical" href="https://panditrohanujjain-tech.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:title" content="Pandit Rohan Sharma | Puja Services in Ujjain">
+  <meta property="og:description" content="Vedic puja and anushthan services in Ujjain, Madhya Pradesh. Contact Pandit Rohan Sharma, with 12+ years of experience, to discuss puja booking.">
+  <meta property="og:url" content="https://panditrohanujjain-tech.github.io/">
+  <meta name="twitter:card" content="summary">
+  <title>Pandit Rohan Sharma | Puja Services in Ujjain</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Pandit Rohan Sharma",
+    "url": "https://panditrohanujjain-tech.github.io/",
+    "email": "panditrohanujjain@gmail.com",
+    "telephone": ["+91 9424529090", "+91 7987605804"],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ujjain",
+      "addressRegion": "Madhya Pradesh",
+      "addressCountry": "IN"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Ujjain"
+    },
+    "description": "Puja and anushthan services in Ujjain, including Kaal Sarp Dosh Puja, Mangal Dosh and Mangal Bhat Puja, Pitra Dosh Puja, Rudrabhishek, Mahakal Puja and Navgraha Shanti Puja. 12+ years of experience."
+  }
+  </script>
+  <link rel="stylesheet" href="styles.css">
   <style>
-    * {
+    :root {
+      color-scheme: light;
+      --ink: #202923;
+      --muted: #5d675f;
+      --paper: #f8f6ef;
+      --white: #fffefa;
+      --forest: #182522;
+      --forest-soft: #263832;
+      --saffron: #e6a53b;
+      --saffron-light: #f5d999;
+      --line: #deded2;
+      --green: #176b4b;
+      --content: 1120px;
+      font-synthesis: none;
+      text-rendering: optimizeLegibility;
+    }
+
+    *,
+    *::before,
+    *::after {
       box-sizing: border-box;
-      margin: 0;
-      padding: 0;
     }
 
     html {
       scroll-behavior: smooth;
+      scroll-padding-top: 84px;
     }
 
     body {
-      font-family: Arial, sans-serif;
-      background: #fffaf2;
-      color: #2d1b0e;
-      line-height: 1.6;
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 17px;
+      line-height: 1.65;
     }
 
-    header {
-      background: #7b1e00;
-      color: white;
-      padding: 16px 8%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
+    a {
+      color: inherit;
+    }
+
+    a:focus-visible,
+    summary:focus-visible {
+      outline: 3px solid var(--saffron);
+      outline-offset: 4px;
+      border-radius: 3px;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      z-index: 20;
+      padding: 10px 14px;
+      transform: translateY(-150%);
+      background: var(--white);
+      color: var(--forest);
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+    }
+
+    .skip-link:focus {
+      transform: translateY(0);
+    }
+
+    .site-header {
       position: sticky;
       top: 0;
-      z-index: 100;
+      z-index: 10;
+      border-bottom: 1px solid rgba(245, 217, 153, 0.2);
+      background: var(--forest);
+      color: var(--white);
     }
 
-    .logo {
-      font-size: 22px;
-      font-weight: bold;
+    .header-inner {
+      display: flex;
+      min-height: 76px;
+      max-width: var(--content);
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      margin: 0 auto;
+      padding: 12px 24px;
     }
 
-    nav a {
-      color: white;
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 11px;
+      color: var(--white);
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.2;
       text-decoration: none;
-      margin-left: 20px;
-      font-weight: bold;
     }
 
-    nav a:hover {
-      color: #ffd166;
+    .brand-mark {
+      display: grid;
+      width: 40px;
+      height: 40px;
+      flex: 0 0 40px;
+      place-items: center;
+      border: 1px solid rgba(245, 217, 153, 0.56);
+      border-radius: 50%;
+      color: var(--saffron-light);
+      font-size: 22px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 24px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+
+    .nav-links a {
+      color: #f4f0e5;
+      text-decoration: none;
+    }
+
+    .nav-links a:hover {
+      color: var(--saffron-light);
+    }
+
+    .nav-cta {
+      padding: 9px 14px;
+      border: 1px solid var(--saffron);
+      border-radius: 4px;
+      color: var(--saffron-light) !important;
+      font-weight: 700;
     }
 
     .hero {
-      min-height: 520px;
-      display: flex;
-      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      isolation: isolate;
+      background:
+        radial-gradient(ellipse at 75% 36%, rgba(230, 165, 59, 0.18), transparent 26%),
+        linear-gradient(115deg, var(--forest) 0%, #1d302b 62%, #273a31 100%);
+      color: var(--white);
+    }
+
+    .hero::after {
+      position: absolute;
+      z-index: -1;
+      top: -145px;
+      right: max(-70px, calc((100vw - 1200px) / 2));
+      width: 510px;
+      height: 510px;
+      border: 1px solid rgba(245, 217, 153, 0.17);
+      border-radius: 50%;
+      box-shadow: 0 0 0 35px rgba(245, 217, 153, 0.025), 0 0 0 70px rgba(245, 217, 153, 0.02);
+      content: "";
+      pointer-events: none;
+    }
+
+    .hero-inner {
+      display: grid;
+      min-height: 545px;
+      max-width: var(--content);
       align-items: center;
-      text-align: center;
-      padding: 70px 20px;
-      background: linear-gradient(135deg, #8b2500, #e87500);
-      color: white;
+      grid-template-columns: minmax(0, 1fr) minmax(220px, 0.65fr);
+      gap: 50px;
+      margin: 0 auto;
+      padding: 84px 24px;
     }
 
-    .hero-content {
-      max-width: 850px;
+    .eyebrow {
+      margin: 0 0 12px;
+      color: var(--saffron-light);
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
     }
 
-    .hero h1 {
-      font-size: 48px;
-      margin-bottom: 10px;
+    h1,
+    h2,
+    h3,
+    p {
+      margin-top: 0;
     }
 
-    .hero h2 {
-      font-size: 25px;
-      margin-bottom: 18px;
-      color: #ffe6a7;
+    h1 {
+      max-width: 730px;
+      margin-bottom: 15px;
+      font-size: clamp(42px, 6vw, 70px);
+      font-weight: 500;
+      letter-spacing: 0;
+      line-height: 1.08;
     }
 
-    .hero p {
-      font-size: 19px;
+    .hero h1 span {
+      color: var(--saffron-light);
+    }
+
+    .hero-lede {
+      max-width: 650px;
       margin-bottom: 28px;
+      color: #e7e8df;
+      font-size: 19px;
     }
 
-    .btn {
-      display: inline-block;
-      padding: 13px 22px;
-      margin: 6px;
-      border-radius: 7px;
+    .hero-actions,
+    .booking-actions,
+    .contact-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 48px;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      padding: 11px 18px;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      font-family: Arial, sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1.25;
+      text-align: center;
       text-decoration: none;
-      font-weight: bold;
-      transition: 0.2s;
+      transition: background-color 160ms ease, color 160ms ease, transform 160ms ease;
     }
 
-    .btn-call {
-      background: white;
-      color: #7b1e00;
-    }
-
-    .btn-whatsapp {
-      background: #25D366;
-      color: white;
-    }
-
-    .btn:hover {
+    .button:hover {
       transform: translateY(-2px);
     }
 
-    section {
-      padding: 65px 8%;
+    .button-primary {
+      background: var(--saffron);
+      color: #211b10;
     }
 
-    .section-title {
-      text-align: center;
-      font-size: 34px;
-      color: #8b2500;
-      margin-bottom: 12px;
+    .button-primary:hover {
+      background: var(--saffron-light);
     }
 
-    .section-subtitle {
-      text-align: center;
-      color: #666;
-      max-width: 750px;
-      margin: 0 auto 38px;
+    .button-outline {
+      border-color: rgba(255, 254, 250, 0.55);
+      color: var(--white);
     }
 
-    .services {
+    .button-outline:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .button-whatsapp {
+      background: #176b4b;
+      color: #fff;
+    }
+
+    .button-whatsapp:hover {
+      background: #0f583d;
+    }
+
+    .hero-aside {
+      position: relative;
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-      gap: 22px;
+      min-height: 270px;
+      align-content: center;
+      justify-items: center;
+      border-left: 1px solid rgba(245, 217, 153, 0.35);
+      color: var(--saffron-light);
+      text-align: center;
+    }
+
+    .hero-symbol {
+      display: grid;
+      width: 174px;
+      height: 174px;
+      place-items: center;
+      border: 1px solid rgba(245, 217, 153, 0.42);
+      border-radius: 50%;
+      box-shadow: 0 0 0 14px rgba(245, 217, 153, 0.045), inset 0 0 42px rgba(230, 165, 59, 0.1);
+      font-size: 62px;
+    }
+
+    .hero-aside p {
+      margin: 24px 0 0;
+      color: #e7e8df;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      letter-spacing: 0.04em;
+    }
+
+    .trust-strip {
+      background: #efe9d8;
+    }
+
+    .trust-inner {
+      display: grid;
+      max-width: var(--content);
+      grid-template-columns: repeat(3, 1fr);
+      margin: 0 auto;
+      padding: 21px 24px;
+    }
+
+    .trust-item {
+      padding: 4px 16px;
+      border-right: 1px solid #d8d0bb;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .trust-item:last-child {
+      border-right: 0;
+    }
+
+    .trust-item strong {
+      display: block;
+      color: var(--forest);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 20px;
+    }
+
+    .trust-item span {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .section {
+      padding: 82px 24px;
+    }
+
+    .section-inner {
+      max-width: var(--content);
+      margin: 0 auto;
+    }
+
+    .section-heading {
+      max-width: 720px;
+      margin: 0 auto 38px;
+      text-align: center;
+    }
+
+    .section-kicker {
+      margin-bottom: 7px;
+      color: #9a5f0d;
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .section-heading h2,
+    .about-copy h2,
+    .booking-copy h2,
+    .contact-copy h2 {
+      margin-bottom: 12px;
+      color: var(--forest);
+      font-size: clamp(30px, 4vw, 42px);
+      font-weight: 500;
+      line-height: 1.15;
+    }
+
+    .section-heading > p:last-child {
+      margin-bottom: 0;
+      color: var(--muted);
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
     }
 
     .service-card {
-      background: white;
-      padding: 28px 20px;
-      border-radius: 12px;
-      text-align: center;
-      box-shadow: 0 4px 18px rgba(0,0,0,0.09);
-      border-top: 4px solid #e87500;
+      min-height: 220px;
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-top: 3px solid var(--saffron);
+      background: var(--white);
+    }
+
+    .service-number {
+      display: inline-block;
+      margin-bottom: 10px;
+      color: #9a5f0d;
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
     }
 
     .service-card h3 {
-      color: #8b2500;
-      margin: 12px 0;
+      margin-bottom: 8px;
+      color: var(--forest);
+      font-size: 21px;
+      font-weight: 600;
+      line-height: 1.3;
     }
 
-    .service-icon {
-      font-size: 40px;
+    .service-card p {
+      margin-bottom: 0;
+      color: var(--muted);
+      font-size: 15px;
     }
 
-    .about {
-      background: #fff1dc;
-      text-align: center;
+    .about-section {
+      background: #ecefe7;
     }
 
-    .about p {
-      max-width: 800px;
-      margin: auto;
-      font-size: 18px;
+    .about-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) minmax(240px, 0.65fr);
+      align-items: center;
+      gap: 64px;
     }
 
-    .experience {
-      margin-top: 30px;
-      display: inline-block;
-      background: #8b2500;
-      color: white;
-      padding: 18px 35px;
-      border-radius: 10px;
+    .about-copy .section-kicker {
+      text-align: left;
     }
 
-    .experience strong {
-      font-size: 32px;
+    .about-copy p {
+      max-width: 690px;
+      color: #46534a;
+    }
+
+    .experience-panel {
+      padding: 30px;
+      border-left: 3px solid var(--saffron);
+      background: var(--white);
+    }
+
+    .experience-panel strong {
       display: block;
+      color: var(--forest);
+      font-size: 48px;
+      font-weight: 500;
+      line-height: 1;
     }
 
-    .contact {
-      background: #3c1205;
-      color: white;
+    .experience-panel span {
+      display: block;
+      margin-top: 10px;
+      color: var(--muted);
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+
+    .booking-section {
+      background: var(--forest);
+      color: var(--white);
+    }
+
+    .booking-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .booking-copy h2 {
+      color: var(--white);
+    }
+
+    .booking-copy p {
+      max-width: 670px;
+      margin-bottom: 0;
+      color: #dce3dc;
+    }
+
+    .booking-actions {
+      justify-content: flex-end;
+    }
+
+    .faq-list {
+      max-width: 850px;
+      margin: 0 auto;
+      border-top: 1px solid var(--line);
+    }
+
+    .faq-list details {
+      border-bottom: 1px solid var(--line);
+    }
+
+    .faq-list summary {
+      position: relative;
+      padding: 19px 36px 19px 0;
+      color: var(--forest);
+      cursor: pointer;
+      font-size: 19px;
+      font-weight: 600;
+      list-style: none;
+    }
+
+    .faq-list summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .faq-list summary::after {
+      position: absolute;
+      right: 4px;
+      color: #9a5f0d;
+      content: "+";
+      font-family: Arial, sans-serif;
+      font-size: 25px;
+      line-height: 1;
+    }
+
+    .faq-list details[open] summary::after {
+      content: "−";
+    }
+
+    .faq-list details p {
+      max-width: 760px;
+      margin: -3px 0 20px;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .contact-section {
+      background: #efe9d8;
+    }
+
+    .contact-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(300px, 0.8fr);
+      gap: 60px;
+    }
+
+    .contact-copy > p {
+      max-width: 560px;
+      color: var(--muted);
+    }
+
+    .contact-details {
+      display: grid;
+      gap: 12px;
+      margin: 24px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .contact-details a {
+      color: var(--forest);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 4px;
+    }
+
+    .contact-label {
+      display: block;
+      color: var(--muted);
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .contact-actions {
+      align-content: start;
+      justify-content: flex-start;
+      padding-top: 12px;
+    }
+
+    .site-footer {
+      padding: 22px 24px;
+      background: #111b18;
+      color: #dce3dc;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
       text-align: center;
     }
 
-    .contact .section-title {
-      color: #ffd166;
+    .site-footer p {
+      margin: 0;
     }
 
-    .contact-item {
-      margin: 14px 0;
-      font-size: 18px;
+    .site-footer p + p {
+      margin-top: 4px;
+      color: #b8c4bc;
     }
 
-    .contact a {
-      color: #ffd166;
-      text-decoration: none;
-    }
-
-    .contact-buttons {
-      margin-top: 25px;
-    }
-
-    footer {
-      background: #220b03;
-      color: #ddd;
-      text-align: center;
-      padding: 22px;
-    }
-
-    .floating-whatsapp {
-      position: fixed;
-      right: 20px;
-      bottom: 20px;
-      background: #25D366;
-      color: white;
-      text-decoration: none;
-      padding: 14px 18px;
-      border-radius: 50px;
-      font-weight: bold;
-      box-shadow: 0 4px 15px rgba(0,0,0,.25);
-      z-index: 200;
-    }
-
-    @media (max-width: 700px) {
-      header {
+    @media (max-width: 820px) {
+      .header-inner {
+        flex-wrap: wrap;
         justify-content: center;
-        text-align: center;
+        gap: 10px 22px;
       }
 
-      nav {
-        margin-top: 10px;
+      .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 18px;
+      }
+
+      .hero-inner {
+        min-height: auto;
+        grid-template-columns: 1fr;
+        gap: 42px;
+        padding-top: 70px;
+        padding-bottom: 60px;
+      }
+
+      .hero-aside {
+        min-height: 0;
+        border-top: 1px solid rgba(245, 217, 153, 0.35);
+        border-left: 0;
+        padding-top: 34px;
+      }
+
+      .hero-symbol {
+        width: 130px;
+        height: 130px;
+        font-size: 48px;
+      }
+
+      .hero-aside p {
+        margin-top: 18px;
+      }
+
+      .services-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .about-layout,
+      .contact-layout {
+        gap: 34px;
+      }
+
+      .booking-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .booking-actions {
+        justify-content: flex-start;
+      }
+    }
+
+    @media (max-width: 560px) {
+      body {
+        font-size: 16px;
+      }
+
+      .header-inner {
+        padding: 10px 16px;
+      }
+
+      .brand {
+        font-size: 16px;
+      }
+
+      .nav-links {
+        gap: 8px 14px;
+        font-size: 13px;
+      }
+
+      .nav-cta {
+        padding: 7px 10px;
+      }
+
+      .hero-inner {
+        padding: 56px 20px 46px;
+      }
+
+      .hero-lede {
+        font-size: 17px;
+      }
+
+      .hero-actions,
+      .booking-actions,
+      .contact-actions {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .button {
         width: 100%;
       }
 
-      nav a {
-        margin: 5px 8px;
-        display: inline-block;
+      .trust-inner {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        padding: 18px 20px;
       }
 
-      .hero h1 {
-        font-size: 35px;
+      .trust-item {
+        padding: 0 0 12px;
+        border-right: 0;
+        border-bottom: 1px solid #d8d0bb;
       }
 
-      .hero h2 {
-        font-size: 21px;
+      .trust-item:last-child {
+        padding-bottom: 0;
+        border-bottom: 0;
+      }
+
+      .section {
+        padding: 62px 20px;
+      }
+
+      .services-grid,
+      .about-layout,
+      .contact-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .service-card {
+        min-height: auto;
+      }
+
+      .experience-panel {
+        padding: 24px;
+      }
+
+      .contact-layout {
+        gap: 20px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
       }
     }
   </style>
 </head>
-
 <body>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
-<header>
-  <div class="logo">🕉️ Pandit Rohan Sharma</div>
-
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#services">Puja Services</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
-
-
-<section class="hero" id="home">
-
-  <div class="hero-content">
-
-    <div style="font-size:60px;">ॐ</div>
-
-    <h1>Pandit Rohan Sharma – Ujjain</h1>
-
-    <h2>12+ Years of Experience in Vedic Puja & Anushthan</h2>
-
-    <p>
-      Traditional Vedic Puja services in Ujjain.
-      Contact for Kaal Sarp Dosh Puja, Mangal Dosh Puja,
-      Pitra Dosh Puja, Rudrabhishek, Mahakal Puja and
-      Navgraha Shanti.
-    </p>
-
-    <a class="btn btn-call" href="tel:+919424529090">
-      📞 Call 9424529090
-    </a>
-
-    <a class="btn btn-whatsapp"
-       href="https://wa.me/919424529090"
-       target="_blank">
-       WhatsApp
-    </a>
-
-  </div>
-
-</section>
-
-
-<section id="services">
-
-  <h2 class="section-title">Puja Services in Ujjain</h2>
-
-  <p class="section-subtitle">
-    Contact Pandit Rohan Sharma for Vedic Puja and Anushthan
-    services in Ujjain.
-  </p>
-
-  <div class="services">
-
-    <div class="service-card">
-      <div class="service-icon">🔱</div>
-      <h3>Kaal Sarp Dosh Puja</h3>
-      <p>
-        Kaal Sarp Dosh Puja and related Vedic rituals
-        performed in Ujjain according to traditional practices.
-      </p>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="Pandit Rohan Sharma, home">
+        <span class="brand-mark" aria-hidden="true">ॐ</span>
+        <span>Pandit Rohan Sharma</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#services">Puja services</a>
+        <a href="#about">About</a>
+        <a href="#faq">FAQs</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#booking">Book a puja</a>
+      </nav>
     </div>
+  </header>
 
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <div>
+          <p class="eyebrow">Vedic puja and anushthan in Ujjain</p>
+          <h1 id="hero-title">Pandit Rohan Sharma <span>— Ujjain</span></h1>
+          <p class="hero-lede">Traditional puja services in the sacred city of Ujjain, Madhya Pradesh. Speak directly to discuss your puja and booking requirements.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="tel:+919424529090">Call now · 94245 29090</a>
+            <a class="button button-outline" href="https://wa.me/919424529090" target="_blank" rel="noopener noreferrer" aria-label="Message Pandit Rohan Sharma on WhatsApp at 94245 29090">WhatsApp</a>
+          </div>
+        </div>
+        <div class="hero-aside" aria-label="Serving devotees in Ujjain">
+          <div class="hero-symbol" aria-hidden="true">ॐ</div>
+          <p>UJJAIN · MADHYA PRADESH · INDIA</p>
+        </div>
+      </div>
+    </section>
 
-    <div class="service-card">
-      <div class="service-icon">🪔</div>
-      <h3>Mangal Dosh Puja</h3>
-      <p>
-        Mangal Dosh and Mangal Bhat Puja services
-        available in Ujjain.
-      </p>
-    </div>
+    <aside class="trust-strip" aria-label="Business information">
+      <div class="trust-inner">
+        <div class="trust-item"><strong>12+ years</strong><span>Experience</span></div>
+        <div class="trust-item"><strong>Ujjain</strong><span>Madhya Pradesh, India</span></div>
+        <div class="trust-item"><strong>Six puja services</strong><span>Discuss your requirements directly</span></div>
+      </div>
+    </aside>
 
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="section-kicker">Puja services</p>
+          <h2 id="services-title">Puja and Anushthan in Ujjain</h2>
+          <p>Get in touch to discuss the ritual you are looking for, the arrangements, and booking details.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card">
+            <span class="service-number">01 · DOSHA PUJA</span>
+            <h3><a href="kaal-sarp-dosh-puja-ujjain.html">Kaal Sarp Dosh Puja</a></h3>
+            <p>Discuss Kaal Sarp Dosh Puja arrangements and related Vedic rituals in Ujjain.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-number">02 · DOSHA PUJA</span>
+            <h3><a href="mangal-dosh-puja-ujjain.html">Mangal Dosh / Mangal Bhat Puja</a></h3>
+            <p>Ask about Mangal Dosh and Mangal Bhat Puja services in Ujjain.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-number">03 · DOSHA PUJA</span>
+            <h3><a href="pitra-dosh-puja-ujjain.html">Pitra Dosh Puja</a></h3>
+            <p>Connect to discuss Pitra Dosh Puja and related Vedic anushthan in Ujjain.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-number">04 · SHIVA PUJA</span>
+            <h3><a href="rudrabhishek-ujjain.html">Rudrabhishek</a></h3>
+            <p>Enquire about Rudrabhishek and Shiva puja services in Ujjain.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-number">05 · SHIVA PUJA</span>
+            <h3><a href="mahakal-puja-ujjain.html">Mahakal Puja</a></h3>
+            <p>Discuss Mahakal Puja arrangements for your visit to Ujjain.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-number">06 · GRAHA SHANTI</span>
+            <h3><a href="navgraha-shanti-puja-ujjain.html">Navgraha Shanti Puja</a></h3>
+            <p>Ask about Navgraha Shanti Puja and related Vedic rituals in Ujjain.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-    <div class="service-card">
-      <div class="service-icon">🙏</div>
-      <h3>Pitra Dosh Puja</h3>
-      <p>
-        Traditional Pitra Dosh Puja and related
-        Vedic Anushthan in Ujjain.
-      </p>
-    </div>
+    <section class="section about-section" id="about" aria-labelledby="about-title">
+      <div class="section-inner about-layout">
+        <div class="about-copy">
+          <p class="section-kicker">About</p>
+          <h2 id="about-title">Guidance rooted in Vedic tradition</h2>
+          <p>Pandit Rohan Sharma offers puja and anushthan services in Ujjain, Madhya Pradesh. With more than 12 years of experience, he helps devotees discuss their puja requirements and the arrangements for their visit.</p>
+          <p>From Kaal Sarp Dosh Puja and Mangal Bhat Puja to Rudrabhishek and Navgraha Shanti, contact him directly to ask about a service and booking.</p>
+        </div>
+        <div class="experience-panel" aria-label="More than 12 years of experience">
+          <strong>12+</strong>
+          <span>Years of experience in puja and anushthan</span>
+        </div>
+      </div>
+    </section>
 
+    <section class="section booking-section" id="booking" aria-labelledby="booking-title">
+      <div class="section-inner booking-layout">
+        <div class="booking-copy">
+          <p class="eyebrow">Puja booking</p>
+          <h2 id="booking-title">Discuss your puja requirements</h2>
+          <p>Call or send a WhatsApp message to ask about a puja, discuss arrangements, and enquire about booking details in Ujjain.</p>
+        </div>
+        <div class="booking-actions">
+          <a class="button button-primary" href="tel:+919424529090">Call 94245 29090</a>
+          <a class="button button-outline" href="https://wa.me/919424529090" target="_blank" rel="noopener noreferrer">WhatsApp to enquire</a>
+        </div>
+      </div>
+    </section>
 
-    <div class="service-card">
-      <div class="service-icon">🕉️</div>
-      <h3>Rudrabhishek</h3>
-      <p>
-        Rudrabhishek and Lord Shiva Puja services
-        performed with traditional Vedic rituals.
-      </p>
-    </div>
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="section-kicker">Helpful information</p>
+          <h2 id="faq-title">Frequently asked questions</h2>
+          <p>Contact Pandit Rohan Sharma directly for details specific to your puja.</p>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>Which puja services can I enquire about?</summary>
+            <p>You can ask about Kaal Sarp Dosh Puja, Mangal Dosh or Mangal Bhat Puja, Pitra Dosh Puja, Rudrabhishek, Mahakal Puja, and Navgraha Shanti Puja in Ujjain.</p>
+          </details>
+          <details>
+            <summary>How do I enquire about puja booking?</summary>
+            <p>Call or WhatsApp either listed number to discuss the puja you have in mind and ask about arrangements and booking details.</p>
+          </details>
+          <details>
+            <summary>Where are the services offered?</summary>
+            <p>Pandit Rohan Sharma is based in Ujjain, Madhya Pradesh, India. Contact him directly to discuss your requirements in Ujjain.</p>
+          </details>
+          <details>
+            <summary>How can I contact Pandit Rohan Sharma?</summary>
+            <p>Call or WhatsApp +91 9424529090 or +91 7987605804, or email panditrohanujjain@gmail.com.</p>
+          </details>
+        </div>
+      </div>
+    </section>
 
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="section-inner contact-layout">
+        <div class="contact-copy">
+          <p class="section-kicker">Contact</p>
+          <h2 id="contact-title">Get in touch</h2>
+          <p>For puja enquiries and booking details, contact Pandit Rohan Sharma in Ujjain using the phone, WhatsApp, or email details below.</p>
+          <ul class="contact-details">
+            <li><span class="contact-label">Phone / WhatsApp</span><a href="tel:+919424529090">+91 9424529090</a></li>
+            <li><span class="contact-label">Phone / WhatsApp</span><a href="tel:+917987605804">+91 7987605804</a></li>
+            <li><span class="contact-label">Email</span><a href="mailto:panditrohanujjain@gmail.com">panditrohanujjain@gmail.com</a></li>
+            <li><span class="contact-label">Location</span>Ujjain, Madhya Pradesh, India</li>
+          </ul>
+        </div>
+        <div class="contact-actions" aria-label="Contact actions">
+          <a class="button button-primary" href="tel:+919424529090">Call 94245 29090</a>
+          <a class="button button-whatsapp" href="https://wa.me/919424529090" target="_blank" rel="noopener noreferrer">WhatsApp 94245 29090</a>
+          <a class="button button-whatsapp" href="https://wa.me/917987605804" target="_blank" rel="noopener noreferrer">WhatsApp 79876 05804</a>
+          <a class="button button-outline" style="border-color: var(--forest); color: var(--forest);" href="mailto:panditrohanujjain@gmail.com">Email Pandit Rohan</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-    <div class="service-card">
-      <div class="service-icon">🔔</div>
-      <h3>Mahakal Puja</h3>
-      <p>
-        Assistance and Puja services for devotees
-        visiting Ujjain for Mahakal worship.
-      </p>
-    </div>
-
-
-    <div class="service-card">
-      <div class="service-icon">☀️</div>
-      <h3>Navgraha Shanti Puja</h3>
-      <p>
-        Navgraha Shanti Puja and related Vedic
-        rituals in Ujjain.
-      </p>
-    </div>
-
-  </div>
-
-</section>
-
-
-<section class="about" id="about">
-
-  <h2 class="section-title">About Pandit Rohan Sharma</h2>
-
-  <p>
-    Pandit Rohan Sharma provides traditional Vedic Puja
-    and Anushthan services in Ujjain. With more than
-    12 years of experience, Puja services are performed
-    according to traditional Vedic practices with clear
-    guidance provided to devotees throughout the process.
-  </p>
-
-  <div class="experience">
-    <strong>12+</strong>
-    Years of Experience
-  </div>
-
-</section>
-
-
-<section class="contact" id="contact">
-
-  <h2 class="section-title">Contact & Puja Booking</h2>
-
-  <p class="section-subtitle" style="color:#eee;">
-    Contact us to discuss Puja requirements, available dates
-    and booking details in Ujjain.
-  </p>
-
-  <div class="contact-item">
-    📞
-    <a href="tel:+919424529090">
-      9424529090
-    </a>
-  </div>
-
-  <div class="contact-item">
-    📞
-    <a href="tel:+917987605804">
-      7987605804
-    </a>
-  </div>
-
-  <div class="contact-item">
-    ✉️
-    <a href="mailto:panditrohanujjain@gmail.com">
-      panditrohanujjain@gmail.com
-    </a>
-  </div>
-
-
-  <div class="contact-buttons">
-
-    <a class="btn btn-whatsapp"
-       href="https://wa.me/919424529090"
-       target="_blank">
-       WhatsApp 9424529090
-    </a>
-
-    <a class="btn btn-whatsapp"
-       href="https://wa.me/917987605804"
-       target="_blank">
-       WhatsApp 7987605804
-    </a>
-
-  </div>
-
-</section>
-
-
-<footer>
-
-  <p>
-    © 2026 Pandit Rohan Sharma – Ujjain Puja Services
-  </p>
-
-  <p>
-    Ujjain, Madhya Pradesh, India
-  </p>
-
-</footer>
-
-
-<a class="floating-whatsapp"
-   href="https://wa.me/919424529090"
-   target="_blank">
-   WhatsApp
-</a>
-
-
+  <footer class="site-footer">
+    <p>© 2026 Pandit Rohan Sharma · Puja Services in Ujjain</p>
+    <p>Ujjain, Madhya Pradesh, India</p>
+  </footer>
 </body>
 </html>
