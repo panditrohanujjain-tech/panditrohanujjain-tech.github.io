@@ -200,10 +200,58 @@
       min-height: 545px;
       max-width: var(--content);
       align-items: center;
-      grid-template-columns: minmax(0, 1fr) minmax(220px, 0.65fr);
+      grid-template-columns: minmax(0, 1fr) minmax(260px, 0.72fr);
       gap: 50px;
       margin: 0 auto;
       padding: 84px 24px;
+    }
+
+    .profile-visual {
+      display: grid;
+      justify-items: center;
+      gap: 14px;
+    }
+
+    .profile-frame {
+      width: min(100%, 390px);
+      padding: 14px;
+      border: 1px solid rgba(245, 217, 153, 0.42);
+      border-radius: 28px;
+      background: linear-gradient(135deg, rgba(245, 217, 153, 0.08), rgba(24, 37, 34, 0.15));
+      box-shadow: 0 22px 48px rgba(5, 10, 9, 0.28);
+    }
+
+    .profile-image {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      object-position: center top;
+      border-radius: 20px;
+      background: #d9d2bf;
+    }
+
+    .profile-meta {
+      display: grid;
+      gap: 4px;
+      text-align: center;
+      color: #efe6d1;
+      font-family: Arial, sans-serif;
+    }
+
+    .profile-meta strong {
+      color: var(--white);
+      font-size: 18px;
+      letter-spacing: 0.01em;
+    }
+
+    .profile-meta span {
+      color: var(--saffron-light);
+      font-size: 12px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
     }
 
     .eyebrow {
@@ -648,6 +696,20 @@
         padding-top: 34px;
       }
 
+      .profile-frame {
+        width: min(100%, 320px);
+        padding: 10px;
+      }
+
+      .profile-meta strong {
+        font-size: 16px;
+      }
+
+      .profile-meta span {
+        font-size: 11px;
+        letter-spacing: 0.12em;
+      }
+
       .hero-symbol {
         width: 130px;
         height: 130px;
@@ -700,6 +762,15 @@
 
       .hero-inner {
         padding: 56px 20px 46px;
+      }
+
+      .profile-frame {
+        width: min(100%, 280px);
+        padding: 8px;
+      }
+
+      .profile-meta {
+        gap: 3px;
       }
 
       .hero-lede {
@@ -802,9 +873,17 @@
             <a class="button button-outline" href="https://wa.me/919424529090" target="_blank" rel="noopener noreferrer" aria-label="Message Pandit Rohan Sharma on WhatsApp at 94245 29090">WhatsApp</a>
           </div>
         </div>
-        <div class="hero-aside" aria-label="Serving devotees in Ujjain">
-          <div class="hero-symbol" aria-hidden="true">ॐ</div>
-          <p>UJJAIN · MADHYA PRADESH · INDIA</p>
+        <div class="hero-aside" aria-label="Pandit Rohan Sharma in Ujjain">
+          <div class="profile-visual">
+            <div class="profile-frame">
+              <img class="profile-image" src="pandit-rohan-sharma-ujjain.png" alt="Pandit Rohan Sharma in Ujjain - Vedic Puja and Anushthan Services">
+            </div>
+            <div class="profile-meta">
+              <strong>Pandit Rohan Sharma</strong>
+              <span>Ujjain, Madhya Pradesh</span>
+              <span>12+ Years Experience</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
